@@ -13,6 +13,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            font-size: 1.2rem;
         }
 
         /* Hero section styling */
@@ -27,8 +28,25 @@
             flex-direction: column;
         }
 
+        .btn {
+            margin-top: 380px;
+        }
+
+        @media(max-width: 768px) {
+            .hero {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .btn {
+                margin-bottom: 10px;
+            }
+        }
+
         .feature-item {
             text-align: left;
+
         }
 
         /* Section spacing */
