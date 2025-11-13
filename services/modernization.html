@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modernization Services - Amplify Tech</title>
+
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white">
+    <!-- Sticky Navigation Header -->
+    <nav class="bg-white border-b border-gray-200 fixed w-full z-20 top-0 start-0">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <!-- Logo/Brand -->
+        <a href="../index.html" class="flex items-center space-x-3">
+          <img src="../assets/logos/amplify-signal-icon-logo.png" class="h-10" alt="Amplify Tech Logo">
+          <span class="self-center text-2xl font-bold text-amber-600">Amplify Tech</span>
+        </a>
+
+        <!-- Mobile menu button -->
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+
+        <!-- Free Consultation Button (Desktop) -->
+        <div class="hidden md:flex md:order-2">
+          <a href="../contact.html" class="text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-6 py-2.5 text-center">Free Consultation</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white">
+            <li>
+              <button id="dropdownNavbarButton" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0 transition-colors">
+                Our Services
+                <svg class="w-4 h-4 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                </svg>
+              </button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden bg-white border border-gray-200 rounded-lg shadow-lg w-56">
+                <ul class="p-2 text-sm font-medium" aria-labelledby="dropdownNavbarButton">
+                  <li>
+                    <a href="development.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Development Services</a>
+                  </li>
+                  <li>
+                    <a href="modernization.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Modernization Services</a>
+                  </li>
+                  <li>
+                    <a href="strategy.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Technical Strategy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="../amplify-difference.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0 transition-colors">The Amplify Difference</a>
+            </li>
+            <!-- Contact button for mobile -->
+            <li class="md:hidden">
+              <a href="../contact.html" class="block py-2 px-3 text-white bg-amber-600 rounded hover:bg-amber-700 text-center">Free Consultation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-white pt-16">
+      <div class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gray-400 bg-blend-multiply" style="background-image: url('../assets/images/blue-matrix.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: blur(3px); transform: scale(1.1);"></div>
+        <div class="relative px-4 py-24 lg:py-32 mx-auto max-w-screen-md text-center">
+          <h1 class="text-5xl font-bold text-white mb-6">Modernization Services</h1>
+          <p class="text-xl text-gray-200 max-w-3xl mx-auto">
+            Accelerate delivery, reduce risk, and build quality through intelligent automation and modern practices
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="max-w-screen-xl mx-auto px-4 py-16">
+      <div class="prose prose-lg max-w-none">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Modernize Without Disruption</h2>
+        <p class="text-lg text-gray-700 mb-8">
+          Too many teams spend valuable engineering time on repetitive manual tasks—deployments, testing, environment 
+          setup—instead of building features that create customer value. Modern automation transforms these operational 
+          bottlenecks into reliable, consistent processes that run themselves. The result? Your team focuses on innovation 
+          while automation handles the grunt work, delivering faster releases with fewer errors and lower operational costs.
+        </p>
+        <p class="text-lg text-gray-700 mb-8">
+          At Amplify, we've modernized engineering practices across dozens of organizations, from startups to Fortune 500 
+          companies. We don't start from scratch—our battle-tested frameworks and patterns let us kickstart modernization 
+          efforts quickly, then use AI to accelerate customization for your specific environment. We take an incremental, 
+          pragmatic approach: identify high-impact wins, implement them iteratively, and gradually bake these practices 
+          into your daily development workflow. No over-engineering, just practical improvements that compound over time.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">DevOps & CI/CD</h3>
+            <p class="text-amber-600 font-semibold mb-4">Seamless Delivery, Zero Drama</p>
+            <p>
+              We implement continuous integration and deployment pipelines that automate your entire release process—from 
+              code commit to production deployment. This includes automated testing, code quality checks, infrastructure 
+              provisioning, and deployment orchestration across multiple environments. Whether you're starting from manual 
+              deployments or modernizing existing CI/CD tooling, we build pipelines that are reliable, fast, and maintainable.
+            </p>
+            <p class="mt-4">
+              We work with industry-standard CI/CD platforms and cloud-native tooling, choosing what fits your stack and team best. 
+              We configure automated rollbacks, feature flags, and deployment strategies (blue-green, canary) that let you release 
+              confidently. The result is a system where every commit is validated automatically, releases happen on-demand rather 
+              than on a schedule, and your team can deploy multiple times per day with confidence.
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">Testing & Quality</h3>
+            <p class="text-amber-600 font-semibold mb-4">Ship with Confidence, Every Time</p>
+            <p>
+              Quality isn't a phase or a role—it's your product. Users experience quality in every interaction—bugs, slow performance, and poor experiences work 
+              directly against the value you're trying to deliver. Their perception becomes your reality in the market. We help teams build quality into every stage 
+              of development through automated testing, code reviews, and continuous validation. This includes establishing testing frameworks, building test suites 
+              for existing code, implementing continuous testing in CI/CD pipelines, and creating quality gates that prevent broken code from reaching production.
+            </p>
+            <p class="mt-4">
+              Our approach balances thoroughness with pragmatism. We focus on testing what matters most—critical business logic, integration points, and areas 
+              prone to regression—rather than chasing arbitrary coverage metrics. We also help teams adopt practices like test-driven development where appropriate, 
+              implement visual regression testing for UI changes, and set up automated performance and security testing. The result is software that ships with 
+              confidence, fewer production incidents, and faster feedback loops when issues do occur.
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">Process Modernization</h3>
+            <p class="text-amber-600 font-semibold mb-4">Unite Teams Around What Matters</p>
+            <p>
+              Development teams face wildly different challenges depending on organizational maturity. In large enterprises, engineers 
+              struggle with heavyweight processes, unclear priorities, and the classic "need better requirements" problem. In startups, 
+              there's often no process at all—just chaos and conflicting priorities. Both extremes create the same toxic dynamic: an 
+              "us versus them" mentality between engineering and the business, where developers feel like order-takers rather than problem-solvers.
+            </p>
+            <p class="mt-4">
+              We help organizations design and implement processes that break down these barriers and refocus everyone on generating customer value. 
+              This means establishing clear prioritization frameworks, creating effective communication rhythms between product and engineering, 
+              implementing feedback loops that surface what's actually working in production, and building collaborative practices that make 
+              trade-offs transparent. Whether you need to introduce structure where there is none or streamline processes that have become bureaucratic, 
+              we work incrementally to create sustainable workflows that help teams ship regularly, learn continuously, and stay aligned on what matters most.
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">Legacy Modernization</h3>
+            <p class="text-amber-600 font-semibold mb-4">Modernize Without Starting Over</p>
+            <p>
+              Legacy systems exist because they're valuable—they represent years of business logic, domain knowledge, and proven reliability. If a system 
+              is still running, it's because it delivers real value to your business. But that value often comes with a cost: expensive maintenance, outdated 
+              technology stacks that make hiring difficult, and architectural decisions that can't adapt well to modern technical requirements or business needs.
+            </p>
+            <p class="mt-4">
+              We help you modernize these systems strategically without throwing away the valuable logic and domain knowledge they contain. Whether that means 
+              refactoring critical components, migrating to modern frameworks, upgrading language versions, or introducing contemporary patterns into existing 
+              codebases, we take an incremental, risk-aware approach. We don't advocate for complete rewrites—instead, we identify the highest-impact areas and 
+              modernize them iteratively alongside your ongoing product development. New features, bug fixes, and business requests don't stop during modernization; 
+              our approach enables both to happen simultaneously. The result is a modernized system that's easier to maintain, costs less to operate, and ready 
+              to adapt as your business evolves.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gray-50">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-sm text-center">
+          <h2 class="mb-4 text-3xl tracking-tight font-extrabold leading-tight text-gray-900">
+            Ready to Modernize?
+          </h2>
+          <p class="mb-6 font-light text-gray-500 md:text-lg">
+            Let's explore how we can help your team ship faster and more reliably.
+          </p>
+          <a href="../contact.html" class="text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+            Get in Touch
+            <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="../index.html" class="flex items-center mb-4">
+              <img src="../assets/logos/amplify-signal-icon-logo.png" class="h-8 me-3" alt="Amplify Tech Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Amplify Tech</span>
+            </a>
+            <p class="text-gray-400 font-medium">
+              <a href="mailto:contact@amplifytech.io" class="hover:text-amber-600 transition-colors">contact@amplifytech.io</a>
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase">Services</h2>
+              <ul class="text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="development.html" class="hover:text-amber-600 transition-colors">Development</a>
+                </li>
+                <li class="mb-4">
+                  <a href="modernization.html" class="hover:text-amber-600 transition-colors">Modernization</a>
+                </li>
+                <li>
+                  <a href="strategy.html" class="hover:text-amber-600 transition-colors">Technical Strategy</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase">Company</h2>
+              <ul class="text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="../amplify-difference.html" class="hover:text-amber-600 transition-colors">The Amplify Difference</a>
+                </li>
+                <li class="mb-4">
+                  <a href="../careers.html" class="hover:text-amber-600 transition-colors">Careers</a>
+                </li>
+                <li>
+                  <a href="../contact.html" class="hover:text-amber-600 transition-colors">Free Consultation</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
+        <div class="text-center">
+          <span class="text-sm text-gray-400">&copy; 2025 AmplifyTech LLC. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Flowbite JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>

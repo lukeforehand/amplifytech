@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us - Amplify Tech</title>
+
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white">
+    <!-- Sticky Navigation Header -->
+    <nav class="bg-white border-b border-gray-200 fixed w-full z-20 top-0 start-0">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <!-- Logo/Brand -->
+        <a href="/" class="flex items-center space-x-3">
+          <img src="./assets/logos/amplify-signal-icon-logo.png" class="h-10" alt="Amplify Tech Logo">
+          <span class="self-center text-2xl font-bold text-amber-600">Amplify Tech</span>
+        </a>
+
+        <!-- Mobile menu button -->
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+
+        <!-- Free Consultation Button (Desktop) -->
+        <div class="hidden md:flex md:order-2">
+          <a href="contact.html" class="text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-6 py-2.5 text-center">Free Consultation</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white">
+            <li>
+              <button id="dropdownNavbarButton" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0 transition-colors">
+                Our Services
+                <svg class="w-4 h-4 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                </svg>
+              </button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden bg-white border border-gray-200 rounded-lg shadow-lg w-56">
+                <ul class="p-2 text-sm font-medium" aria-labelledby="dropdownNavbarButton">
+                  <li>
+                    <a href="services/development.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Development Services</a>
+                  </li>
+                  <li>
+                    <a href="services/modernization.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Modernization Services</a>
+                  </li>
+                  <li>
+                    <a href="services/strategy.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Technical Strategy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="amplify-difference.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0 transition-colors">The Amplify Difference</a>
+            </li>
+            <!-- Contact button for mobile -->
+            <li class="md:hidden">
+              <a href="contact.html" class="block py-2 px-3 text-white bg-amber-600 rounded hover:bg-amber-700 text-center">Free Consultation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Section with Background -->
+    <section class="bg-white pt-16">
+      <div class="bg-gray-300 bg-blend-multiply" style="background-image: url('./assets/images/mockup-design-preso-blur.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="px-4 lg:pt-24 pt-8 pb-72 lg:pb-80 mx-auto max-w-screen-sm text-center lg:px-6">
+          <p class="mb-16 font-light sm:text-xl">&nbsp;</p>
+        </div>
+      </div>
+      <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-24 lg:px-6">
+        <form action="#" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 sm:grid-cols-2">
+          <div class="sm:col-span-2 text-center">
+            <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Let's Talk</h1>
+            <p class="mb-8 font-light text-gray-700 sm:text-xl">
+              We're a team of engineering nerds who get genuinely excited about interesting technical challenges. We can't wait to hear what you're working on!
+            </p>
+          </div>
+          <div>
+            <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900">First Name <span class="text-red-600">*</span></label>
+            <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-amber-600 focus:border-amber-600" placeholder="John" required>
+          </div>
+          <div>
+            <label for="last-name" class="block mb-2 text-sm font-medium text-gray-900">Last Name <span class="text-red-600">*</span></label>
+            <input type="text" id="last-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-amber-600 focus:border-amber-600" placeholder="Doe" required>
+          </div>
+          <div>
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email <span class="text-red-600">*</span></label>
+            <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-amber-600 focus:border-amber-600 block w-full p-2.5" placeholder="name@company.com" required>
+          </div>
+          <div>
+            <label for="phone-number" class="block mb-2 text-sm font-medium text-gray-900">Phone Number</label>
+            <input type="tel" id="phone-number" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-amber-600 focus:border-amber-600" placeholder="+1 (555) 123-4567">
+          </div>
+          <div class="sm:col-span-2">
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your message <span class="text-red-600">*</span></label>
+            <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-amber-600 focus:border-amber-600" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-amber-600 sm:w-fit hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300">Send message</button>
+        </form>
+        <div class="space-y-8 text-center md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+          <div class="mx-auto max-w-[350px]">
+            <div class="flex justify-center items-center mx-auto mb-4 w-10 h-10 bg-gray-100 rounded-lg lg:h-16 lg:w-16">
+              <svg class="w-5 h-5 text-gray-600 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+              </svg>
+            </div>
+            <p class="mb-2 text-xl font-bold">Email us:</p>
+            <p class="mb-3 text-gray-500">Email us for general queries, including consulting and partnership opportunities.</p>
+            <a href="mailto:contact@amplifytech.io" class="font-semibold text-amber-600 hover:underline">contact@amplifytech.io</a>
+          </div>
+          <div class="mx-auto max-w-[350px]">
+            <div class="flex justify-center items-center mx-auto mb-4 w-10 h-10 bg-gray-100 rounded-lg lg:h-16 lg:w-16">
+              <svg class="w-5 h-5 text-gray-600 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+              </svg>
+            </div>
+            <p class="mb-2 text-xl font-bold">Call us:</p>
+            <p class="mb-3 text-gray-500">Call us to speak with our engineering team. We are always happy to discuss your project.</p>
+            <span class="font-semibold text-amber-600">+1 (608) 571-4544</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="/" class="flex items-center mb-4">
+              <img src="./assets/logos/amplify-signal-icon-logo.png" class="h-8 me-3" alt="Amplify Tech Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Amplify Tech</span>
+            </a>
+            <p class="text-gray-400 font-medium">
+              <a href="mailto:contact@amplifytech.io" class="hover:text-amber-600 transition-colors">contact@amplifytech.io</a>
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase">Services</h2>
+              <ul class="text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="services/development.html" class="hover:text-amber-600 transition-colors">Development</a>
+                </li>
+                <li class="mb-4">
+                  <a href="services/modernization.html" class="hover:text-amber-600 transition-colors">Modernization</a>
+                </li>
+                <li>
+                  <a href="services/strategy.html" class="hover:text-amber-600 transition-colors">Technical Strategy</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase">Company</h2>
+              <ul class="text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="amplify-difference.html" class="hover:text-amber-600 transition-colors">The Amplify Difference</a>
+                </li>
+                <li class="mb-4">
+                  <a href="careers.html" class="hover:text-amber-600 transition-colors">Careers</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="hover:text-amber-600 transition-colors">Free Consultation</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
+        <div class="text-center">
+          <span class="text-sm text-gray-400">&copy; 2025 AmplifyTech LLC. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Flowbite JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
