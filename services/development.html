@@ -65,6 +65,9 @@
                     <a href="development.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Development Services</a>
                   </li>
                   <li>
+                    <a href="ai.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">AI Services</a>
+                  </li>
+                  <li>
                     <a href="modernization.html" class="block p-2 text-gray-900 rounded hover:bg-gray-100 hover:text-amber-600 transition-colors">Modernization Services</a>
                   </li>
                   <li>
@@ -88,7 +91,7 @@
     <!-- Hero Section -->
     <section class="bg-white pt-16">
       <div class="relative overflow-hidden">
-        <div class="absolute inset-0 bg-gray-400 bg-blend-multiply" style="background-image: url('../assets/images/desk-collaboration.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: blur(3px); transform: scale(1.1);"></div>
+        <div class="absolute inset-0 bg-gray-400 bg-blend-multiply" style="background-image: url('../assets/images/dev-services-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: blur(3px); transform: scale(1.1);"></div>
         <div class="relative px-4 py-24 lg:py-32 mx-auto max-w-screen-md text-center">
           <h1 class="text-5xl font-bold text-white mb-6">Development Services</h1>
           <p class="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -116,23 +119,6 @@
         </p>
 
         <div class="grid md:grid-cols-2 gap-8 mb-12">
-          <div class="bg-gray-50 p-6 rounded-lg">
-            <h3 class="text-xl font-semibold text-gray-900 mb-3">Artificial Intelligence</h3>
-            <p class="text-amber-600 font-semibold mb-4">Real AI Experience, Not Just Hype</p>
-            <p>
-              We've been building AI-enabled products for over 15 years—long before generative AI became the buzzword
-              it is today. Our experience spans from traditional machine learning and predictive models to cutting-edge
-              large language model integrations. This isn't theoretical knowledge from whitepapers or training sessions;
-              it's battle-tested expertise from shipping real products that leverage AI to solve actual business problems.
-            </p>
-            <p class="mt-4">
-              Whether you need intelligent automation, custom AI integrations, natural language processing, or predictive 
-              analytics, we architect solutions that deliver measurable value. We design systems with flexibility in mind, 
-              built to adapt as AI technology evolves. We cut through the hype to implement AI where it truly makes 
-              sense for your business, ensuring your investment drives real results rather than chasing trends.
-            </p>
-          </div>
-
           <div class="bg-gray-50 p-6 rounded-lg">
             <h3 class="text-xl font-semibold text-gray-900 mb-3">Product Development</h3>
             <p class="text-amber-600 font-semibold mb-4">Concept to Production, Fast and Efficient</p>
@@ -171,16 +157,27 @@
             <h3 class="text-xl font-semibold text-gray-900 mb-3">API & Integration</h3>
             <p class="text-amber-600 font-semibold mb-4">Integration Without the Friction</p>
             <p>
-              Modern products don't exist in isolation—they connect to payment processors, communicate with third-party services, expose 
-              public APIs, and integrate with existing enterprise systems. We design and build the interfaces that make these connections 
-              seamless, reliable, and secure. Whether you're opening your platform to external developers or integrating with a complex 
+              Modern products don't exist in isolation—they connect to payment processors, communicate with third-party services, expose
+              public APIs, and integrate with existing enterprise systems. We design and build the interfaces that make these connections
+              seamless, reliable, and secure. Whether you're opening your platform to external developers or integrating with a complex
               ecosystem of internal and external services, we architect APIs that are well-documented, versioned properly, and built to evolve.
             </p>
             <p class="mt-4">
-              Our experience spans RESTful APIs, GraphQL, webhooks, and event-driven architectures. We've built integration layers for 
-              healthcare systems, financial platforms, and SaaS products—handling everything from authentication and rate limiting to data 
-              transformation and error handling. The result is clean, maintainable integration points that reduce friction and accelerate 
+              Our experience spans RESTful APIs, GraphQL, webhooks, and event-driven architectures. We've built integration layers for
+              healthcare systems, financial platforms, and SaaS products—handling everything from authentication and rate limiting to data
+              transformation and error handling. The result is clean, maintainable integration points that reduce friction and accelerate
               your ability to connect with the broader technology ecosystem.
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">Legacy Systems</h3>
+            <p class="text-amber-600 font-semibold mb-4">Keep What Works, Improve What Doesn't</p>
+            <p>
+              Legacy systems exist because they're valuable—they represent years of business logic, domain knowledge, and proven reliability. But working on them requires expertise that's increasingly rare: understanding older technologies, navigating undocumented code, and making changes without breaking what works. Whether you need new features, bug fixes, performance improvements, or ongoing maintenance, we bring the experience to work effectively in codebases others avoid.
+            </p>
+            <p class="mt-4">
+              When modernization makes sense, we help you do it strategically—refactoring critical components, migrating to modern frameworks, or introducing contemporary patterns—without throwing away the valuable logic these systems contain. We take an incremental, risk-aware approach rather than advocating for complete rewrites. New features, bug fixes, and business requests don't stop during modernization; our approach enables both to happen simultaneously. The result is a system that's easier to maintain, costs less to operate, and ready to adapt as your business evolves.
             </p>
           </div>
         </div>
@@ -220,32 +217,35 @@
               <a href="mailto:contact@amplifytech.io" class="hover:text-amber-600 transition-colors">contact@amplifytech.io</a>
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6">
-            <div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 divide-x divide-gray-700 border-r border-gray-700 pr-8">
+            <div class="border-l border-gray-700 pl-8">
               <h2 class="mb-6 text-sm font-semibold text-white uppercase">Services</h2>
-              <ul class="text-gray-400 font-medium">
-                <li class="mb-4">
+              <ul class="text-gray-400 font-medium grid grid-cols-2 gap-x-4 gap-y-4">
+                <li>
                   <a href="development.html" class="hover:text-amber-600 transition-colors">Development</a>
                 </li>
-                <li class="mb-4">
+                <li>
                   <a href="modernization.html" class="hover:text-amber-600 transition-colors">Modernization</a>
+                </li>
+                <li>
+                  <a href="ai.html" class="hover:text-amber-600 transition-colors">Artificial Intelligence</a>
                 </li>
                 <li>
                   <a href="strategy.html" class="hover:text-amber-600 transition-colors">Technical Strategy</a>
                 </li>
               </ul>
             </div>
-            <div>
+            <div class="pl-8">
               <h2 class="mb-6 text-sm font-semibold text-white uppercase">Company</h2>
-              <ul class="text-gray-400 font-medium">
-                <li class="mb-4">
+              <ul class="text-gray-400 font-medium grid grid-cols-2 gap-x-4 gap-y-4">
+                <li>
                   <a href="../amplify-difference.html" class="hover:text-amber-600 transition-colors">The Amplify Difference</a>
-                </li>
-                <li class="mb-4">
-                  <a href="../careers.html" class="hover:text-amber-600 transition-colors">Careers</a>
                 </li>
                 <li>
                   <a href="../contact.html" class="hover:text-amber-600 transition-colors">Free Consultation</a>
+                </li>
+                <li>
+                  <a href="../careers.html" class="hover:text-amber-600 transition-colors">Careers</a>
                 </li>
               </ul>
             </div>
